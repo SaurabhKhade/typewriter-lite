@@ -35,7 +35,7 @@ Package has only function which takes a object of customizable values.
 ```javascript
 typewriter({
   element: MyDiv,
-  texts_array: MyArray,
+  text_array: MyArray,
   write_delay: 500,
   remove_delay: 500,
   write_delay_per_char: 100,
@@ -53,15 +53,19 @@ import typewriter from 'typewriter-lite';
 
 export default function Container() {
   
-  const typeRef = useRef(null)
-  const text = ['This is Typewriter Lite','for animated typing effect','it has Customizable speed']
+  const typeRef = useRef(null);
+  const text = [
+    'This is Typewriter Lite',
+    'for animated typing effect',
+    'it has Customizable speed'
+  ];
   
   useEffect(()=>{
     typewriter({
       element: (typeRef.current),
-      texts_array: text
+      text_array: text
     });
-  },[])
+  },[]);
   
   return (
     <div>
