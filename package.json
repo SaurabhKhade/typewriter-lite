@@ -1,0 +1,22 @@
+{
+  "name": "animated-typing",
+  "version": "1.0.0",
+  "description": "The ultra small, zero dependency javascript package for animated typing or typewriter effect for JavaScript and ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaurabhKhade/animated-typing.git"
+  },
+  "keywords": [
+    "typing animation",
+    "animated typing",
+    "typedjs",
+    "lite typedjs",
+    "typewriter effect"
+  ],
+  "author": "SaurabhKhade",
+  "license": "ISC"
+}
