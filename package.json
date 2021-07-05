@@ -1,6 +1,6 @@
 {
-  "name": "animated-typing",
-  "version": "1.0.0",
+  "name": "typewriter-lite",
+  "version": "1.1.0",
   "description": "The ultra small, zero dependency javascript package for animated typing or typewriter effect for JavaScript and ReactJS.",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,14 @@
   "keywords": [
     "typing animation",
     "animated typing",
+    "typedjs lite",
     "typedjs",
-    "lite typedjs",
-    "typewriter effect"
+    "typewriter effect",
+    "typewriter",
+    "typewriter lite",
+    "SaurabhKhade",
+    "Saurabh",
+    "Khade"
   ],
   "author": "SaurabhKhade",
   "license": "ISC"
