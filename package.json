@@ -1,6 +1,6 @@
 {
   "name": "typewriter-lite",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "The ultra small, zero dependency javascript package for animated typing or typewriter effect for JavaScript and ReactJS.",
   "main": "index.js",
   "repository": {
