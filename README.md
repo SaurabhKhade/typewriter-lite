@@ -19,7 +19,7 @@ Package has only function which takes a object of customizable values.
 
 1. **element** (required): 
   Reference to a element inside which text to be written
-2. **text_array** (required):
+2. **texts_array** (required):
   Array of all sentences which are to be written inside element.
 3. **write_delay** (optional):
   Delay before starting to write each sentence in milliseconds. default to 500ms.
@@ -35,7 +35,7 @@ Package has only function which takes a object of customizable values.
 ```javascript
 typewriter({
   element: MyDiv,
-  text_array: MyArray,
+  texts_array: MyArray,
   write_delay: 500,
   remove_delay: 500,
   write_delay_per_char: 100,
@@ -63,7 +63,7 @@ export default function Container() {
   useEffect(()=>{
     typewriter({
       element: (typeRef.current),
-      text_array: text
+      texts_array: text
     });
   },[]);
   
