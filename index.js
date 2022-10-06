@@ -2,7 +2,7 @@ function animatedTyping(params) {
 
   let {
     element,
-    text_array,
+    texts_array,
     write_delay = 500,
     remove_delay = 500,
     write_delay_per_char = 100,
